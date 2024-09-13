@@ -1164,6 +1164,23 @@ form textarea {
   .home {
     grid-template-columns: 1fr;
   }
+  .infor-box span {
+    font-size: 0.5rem;
+  }
+
+  .btn-boxs {
+    width: 17rem;
+    height: 2rem;
+  }
+
+  .btn-boxs a.btn {
+    width: 7rem;
+    height: 100%;
+
+    font-size: 0.7rem;
+
+    border-radius: 3px;
+  }
   /* .home-image {
     margin-bottom: 8rem;
   } */
