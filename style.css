@@ -871,12 +871,12 @@ section {
 .contact-text h4 {
   margin: 15px 0;
   color: rgb(228, 228, 228);
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .contact-text p {
   color: rgb(177, 177, 177);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 30px;
   margin-bottom: 2rem;
   text-align: justify;
@@ -885,11 +885,11 @@ section {
   margin-bottom: 3rem;
 }
 .contact-list li {
-  margin-bottom: 10px;
+  margin-bottom: 0.7rem;
   display: block;
 }
 .contact-list li a {
-  margin-bottom: 10px;
+  margin-bottom: 0.7rem;
   text-decoration: none;
   color: #fff;
   display: block;
@@ -898,7 +898,7 @@ section {
 .contact-list i {
   display: inline-block;
   color: #0ef;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-family: 600;
   transition: all 0.4s ease;
 }
@@ -912,12 +912,12 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 2.3rem;
+  height: 2.3rem;
   background: transparent;
   border: 2px solid #0ef;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #0ef;
   text-decoration: none;
   margin: 30px 15px 30px 0;
@@ -1228,6 +1228,13 @@ form textarea {
   }
   .contact {
     grid-template-columns: 1fr;
+  }
+  .contact-text p,
+  h4 {
+    font-size: 1rem;
+  }
+  .contact-text h2 {
+    font-size: 2.8rem;
   }
   /* .radial-bars .radial-bar {
     width: 30%;
