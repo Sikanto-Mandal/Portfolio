@@ -167,7 +167,7 @@ section {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  width: 21rem;
+  width: 18rem;
   margin: 1rem 0 2rem;
   animation: slideTop 1s ease forwards;
 }
@@ -186,7 +186,7 @@ section {
 .btn-boxs {
   display: flex;
   justify-content: space-between;
-  width: 21rem;
+  width: 19rem;
   height: 2.8rem;
   animation: slideBottom 2s ease forwards;
 }
@@ -243,8 +243,8 @@ a.btn:nth-child(2)::before {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   background: transparent;
   border: 2px solid #0ef;
   border-radius: 50%;
@@ -254,7 +254,7 @@ a.btn:nth-child(2)::before {
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(0.2s * var(--i));
-  margin: 30px 15px 30px 0;
+  margin: 1.8rem 0.9rem 1.8rem 0;
 }
 .social-icons a:hover {
   background: #0ef;
@@ -263,10 +263,10 @@ a.btn:nth-child(2)::before {
 }
 .btn-box {
   display: inline-block;
-  padding: 12px 28px;
+  padding: 0.75rem 1.75rem;
   background: #0ef;
-  border-radius: 40px;
-  font-size: 16px;
+  border-radius: 2.5rem;
+  font-size: 1rem;
   color: #081b29;
   letter-spacing: 1px;
   text-decoration: none;
@@ -1174,13 +1174,40 @@ form textarea {
   }
 
   .btn-boxs a.btn {
-    width: 7rem;
+    width: 5rem;
     height: 100%;
 
     font-size: 0.7rem;
 
     border-radius: 3px;
   }
+  .btn-box {
+    padding: 0.4rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 0.6rem;
+  }
+  .social-icons a {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #0ef;
+    font-size: 0.62rem;
+    margin: 0.9rem 0.4rem 0.9rem 0;
+  }
+  /* .btn-box {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  background: #0ef;
+  border-radius: 2.5rem;
+  font-size: 1rem;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+} */
   /* .home-image {
     margin-bottom: 8rem;
   } */
@@ -1252,6 +1279,14 @@ form textarea {
   }
   .contact-text h2 {
     font-size: 2.8rem;
+  }
+
+  .contact-icons i {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 1px solid #0ef;
+    font-size: 0.62rem;
+    margin: 0.9rem 0.4rem 0.9rem 0;
   }
   /* .radial-bars .radial-bar {
     width: 30%;
