@@ -1099,7 +1099,7 @@ form textarea {
     --h2-font: 3rem;
   }
   .home-content {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   .home-sci {
     margin-top: 2rem;
@@ -1129,6 +1129,7 @@ form textarea {
     font-size: 1.6rem;
   }
 }
+/* //////////////////////////////////////////805///////////////////////////////////////////////////////////////// */
 
 @media (max-width: 805px) {
   #menu-icon {
@@ -1160,6 +1161,8 @@ form textarea {
     top: 100%;
   }
 }
+
+/* ---------------------768------------------------------------------------ */
 @media (max-width: 768px) {
   .home {
     grid-template-columns: 1fr;
@@ -1170,16 +1173,13 @@ form textarea {
 
   .btn-boxs {
     width: 17rem;
-    height: 2rem;
+    height: 2.5rem;
   }
 
   .btn-boxs a.btn {
-    width: 5rem;
+    width: 7rem;
     height: 100%;
-
-    font-size: 0.7rem;
-
-    border-radius: 3px;
+    font-size: 0.8rem;
   }
   .btn-box {
     padding: 0.4rem 1rem;
@@ -1251,6 +1251,7 @@ form textarea {
     top: 8%;
   } */
 }
+/* ///////////////////////420////////////////////////// */
 
 @media (max-width: 420px) {
   html {
