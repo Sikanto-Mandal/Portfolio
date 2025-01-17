@@ -1,5 +1,10 @@
 var typed = new Typed(".text", {
-  strings: ["Frontend Developer", "Youtuber", "Web Developer"],
+  strings: [
+    "Frontend Developer",
+    "Innovator",
+    "Web Developer",
+    "Software Developer",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
@@ -41,3 +46,12 @@ scrollBottom.forEach((el) => observer.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
+
+let homePara = document.querySelector("#homePara");
+homePara.innerHTML =
+  "As a passionate web developer, I specialize in creating dynamic, responsive, and user-centric websites. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, I turn complex concepts into interactive, seamless digital experiences. ";
+
+let downloadCv = document.querySelector("#downloadCv");
+downloadCv.addEventListener("click", () => {
+  alert("CV Downloaded!");
+});
