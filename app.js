@@ -53,5 +53,5 @@ homePara.innerHTML =
 
 let downloadCv = document.querySelector("#downloadCv");
 downloadCv.addEventListener("click", () => {
-  alert("CV Downloaded!");
+  alert("CV Open!");
 });
