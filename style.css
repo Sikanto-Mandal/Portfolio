@@ -819,14 +819,25 @@ section {
   padding: 0 40px;
   transition: height 0.5s;
 }
+#projectHeading {
+  text-align: center;
+  color: #fff;
+}
+#projectLink {
+  color: #0ef;
+}
+#projectLink:hover {
+  color: red;
+}
 .layer h5 {
-  color: #000;
-  font-size: 20px;
+  color: red;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
 }
+
 .layer p {
-  color: #000;
+  color: red;
   font-size: 1rem;
   line-height: 1.8;
 }

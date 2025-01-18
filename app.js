@@ -11,6 +11,14 @@ var typed = new Typed(".text", {
   loop: true,
 });
 
+//////////////////////////////////About me////////////////////////////////////
+let aboutMeText = document.querySelector(".aboutMeText");
+aboutMeText.innerHTML =
+  "I am a passionate web developer specializing in creating dynamic, responsive, and user-centric websites. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, I turn complex concepts into interactive, seamless digital experiences. <br>I've completed my Master's degree in Master's of Computer Science (MCA) from Dr. A.P.J. Abdul Kalam Technical University. I am a self-motivated, detail-oriented, and highly organized individual with a strong work ethic. I am always eager to learn new technologies and improve my skills. I am a team player who enjoys collaborating with others to achieve common goals. I am looking for an opportunity to work with a dynamic team of professionals to create innovative and impactful digital solutions.";
+//////////////////////////////////projects////////////////////////////////////
+// let projectHeading = document.querySelector("#projectHeading");
+// projectHeading.innerHTML = "News Website";
+
 // toggle icon navbar////////////////////////////////////////////////////
 
 let menuIcon = document.querySelector("#menu-icon");
