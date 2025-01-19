@@ -182,6 +182,14 @@ section {
   color: #0ef;
   animation: slideLeft 0.5s ease forwards;
 }
+#gmail {
+  text-decoration: none;
+  color: #0ef;
+}
+#gmail:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+    0 0 200px cyan;
+}
 
 .btn-boxs {
   display: flex;
@@ -829,6 +837,7 @@ section {
 #projectLink:hover {
   color: red;
 }
+
 .layer h5 {
   color: red;
   font-size: 24px;

@@ -55,6 +55,7 @@ scrollBottom.forEach((el) => observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
 
+////////////////////////////////////HOME////////////////////////////////////////////////////
 let homePara = document.querySelector("#homePara");
 homePara.innerHTML =
   "As a passionate web developer, I specialize in creating dynamic, responsive, and user-centric websites. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, I turn complex concepts into interactive, seamless digital experiences. ";
@@ -63,3 +64,5 @@ let downloadCv = document.querySelector("#downloadCv");
 downloadCv.addEventListener("click", () => {
   alert("CV Open!");
 });
+
+let gmail = document.querySelector("#gmail");
