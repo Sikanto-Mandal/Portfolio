@@ -1424,6 +1424,12 @@ form textarea {
     /* margin-left: 120px; */
   }
 
+  .portfolio-content {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+
   /* .contact-icons i {
     width: 1.8rem;
     height: 1.8rem;
