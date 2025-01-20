@@ -4,3 +4,4 @@
 ![Screenshot (4)](https://github.com/user-attachments/assets/19327bc7-7e7f-4cf9-9f94-350f576671ec)
 ![Screenshot (2)](https://github.com/user-attachments/assets/bec9d024-6f00-4f75-8499-e9c22883bec9)
 ![Screenshot (8)](https://github.com/user-attachments/assets/878c2d03-8c32-46f6-b8a8-ad9026d11390)
+![portfolioSkill](https://github.com/user-attachments/assets/a58b2799-3577-4239-a28a-a115e3b88d3b)
