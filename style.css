@@ -1457,8 +1457,8 @@ form textarea {
     font-size: 0.5rem;
     position: absolute;
     padding: 10px;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 69% 31% 66% 34% / 21% 30% 70% 79%;
     display: block;
     box-shadow: var(--neon-box-shadow);
