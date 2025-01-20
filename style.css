@@ -1302,6 +1302,19 @@ form textarea {
     border-radius: 1.5rem;
     /* font-size: 0.6rem; */
   }
+  .container1 {
+    width: 100%;
+    height: auto;
+
+    /* padding: 75px 90px; */
+    /* margin-left: 120px; */
+  }
+  .container2 {
+    width: 100%;
+    height: auto;
+    /* padding: 75px 90px; */
+    /* margin-left: 120px; */
+  }
   /* .social-icons a {
     width: 1.8rem;
     height: 1.8rem;
@@ -1396,6 +1409,19 @@ form textarea {
   }
   .contact-text h2 {
     font-size: 2.8rem;
+  }
+  .container1 {
+    width: 80%;
+    height: auto;
+
+    /* padding: 75px 90px; */
+    /* margin-left: 120px; */
+  }
+  .container2 {
+    width: 80%;
+    height: auto;
+    /* padding: 75px 90px; */
+    /* margin-left: 120px; */
   }
 
   /* .contact-icons i {
