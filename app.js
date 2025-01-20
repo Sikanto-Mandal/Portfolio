@@ -66,3 +66,8 @@ downloadCv.addEventListener("click", () => {
 });
 
 let gmail = document.querySelector("#gmail");
+
+////////////////////////////////contact section/////////////////////
+let contactMsg = document.querySelector("#contactMsg");
+contactMsg.innerHTML =
+  "If you have any questions or need assistance, I'm here to help! Whether you’re looking for more information, have a specific inquiry, or simply want to share your feedback, feel free to get in touch with me. I'm ready to respond promptly and provide the support you need. I value every message I receive, so don’t hesitate to reach out. Contact me today, and I’ll make sure to connect with you as soon as possible. Let’s start the conversation";
