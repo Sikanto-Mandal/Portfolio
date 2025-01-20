@@ -573,7 +573,7 @@ section {
   width: 100%;
   border-radius: 6px;
   margin-top: 6px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .skill-bar .skill-per {
