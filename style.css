@@ -1277,6 +1277,11 @@ form textarea {
     top: 100%;
   }
 }
+.portfolio-content {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
 
 /* ---------------------768------------------------------------------------ */
 @media (max-width: 768px) {
@@ -1369,6 +1374,11 @@ form textarea {
   .services-list {
     grid-template-columns: 2fr;
   }
+  .portfolio-content {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
   /* .img-box img {
     width: 70%;
     max-width: 250px;
@@ -1395,11 +1405,11 @@ form textarea {
     height: auto;
   } */
 
-  .info-about1,
+  /* .info-about1,
   .info-about2,
   .info-about3 {
     display: none;
-  }
+  } */
   .contact {
     grid-template-columns: 1fr;
   }
@@ -1422,12 +1432,6 @@ form textarea {
     height: auto;
     /* padding: 75px 90px; */
     /* margin-left: 120px; */
-  }
-
-  .portfolio-content {
-    display: grid;
-    grid-gap: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 
   /* .contact-icons i {
