@@ -1283,9 +1283,9 @@ form textarea {
   .home {
     grid-template-columns: 1fr;
   }
-  .infor-box span {
+  /* .infor-box span {
     font-size: 0.5rem;
-  }
+  } */
 
   .btn-boxs {
     width: 17rem;
@@ -1300,11 +1300,11 @@ form textarea {
   .btn-box {
     padding: 0.4rem 1rem;
     border-radius: 1.5rem;
-    font-size: 0.6rem;
+    /* font-size: 0.6rem; */
   }
   .social-icons a {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.8rem;
+    height: 1.8rem;
     border: 1px solid #0ef;
     font-size: 0.62rem;
     margin: 0.9rem 0.4rem 0.9rem 0;
@@ -1399,8 +1399,8 @@ form textarea {
   }
 
   .contact-icons i {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.8rem;
+    height: 1.8rem;
     border: 1px solid #0ef;
     font-size: 0.62rem;
     margin: 0.9rem 0.4rem 0.9rem 0;
