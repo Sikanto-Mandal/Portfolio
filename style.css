@@ -1001,9 +1001,9 @@ section {
   margin-bottom: 2rem;
   text-align: justify;
 }
-.contact-list {
+/* .contact-list {
   margin-bottom: 3rem;
-}
+} */
 .contact-list li {
   margin-bottom: 0.7rem;
   display: block;
@@ -1388,6 +1388,14 @@ form textarea {
     grid-gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    position: relative;
+  }
   /* .img-box img {
     width: 70%;
     max-width: 250px;
@@ -1410,7 +1418,7 @@ form textarea {
 
 @media (max-width: 420px) {
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
   /* .about-img img {
     width: 300px;
@@ -1426,9 +1434,7 @@ form textarea {
   .info-about3 {
     display: none;
   } */
-  .contact {
-    grid-template-columns: 1fr;
-  }
+
   .contact-text p,
   h4 {
     font-size: 1rem;
@@ -1448,6 +1454,19 @@ form textarea {
     height: auto;
     /* padding: 75px 90px; */
     /* margin-left: 120px; */
+  }
+
+  .radial-bar .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
   }
 
   .info-about1,
