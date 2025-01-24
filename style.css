@@ -304,7 +304,7 @@ a.btn:nth-child(2)::before {
   width: 100%;
   max-width: 350px;
   height: auto;
-  animation: ImageAni 5s linear infinite;
+  /* animation: ImageAni 5s linear infinite; */
 }
 
 @keyframes ImageAni {
