@@ -267,7 +267,13 @@ a.btn:nth-child(2)::before {
 .social-icons a:hover {
   background: #0ef;
   color: #081b29;
+
   box-shadow: 0 0 20px #0ef;
+}
+
+.social-icons i:hover {
+  transition: ease-in-out 0.3s;
+  transform: translateY(-5px);
 }
 .btn-box {
   display: inline-block;
@@ -298,7 +304,21 @@ a.btn:nth-child(2)::before {
   width: 100%;
   max-width: 350px;
   height: auto;
+  animation: ImageAni 5s linear infinite;
 }
+
+@keyframes ImageAni {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 .liquid-shape {
   position: absolute;
   width: 100%;
@@ -345,6 +365,7 @@ section {
   filter: drop-shadow(0 0 100px cyan);
 
   animation: slideRight 1s ease forwards;
+  animation: ImageAni 5s linear infinite;
 }
 
 .about-text #letme {
